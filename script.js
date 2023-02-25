@@ -1,12 +1,12 @@
-$(document).ready(function() {
+$(document).ready(function(){
     var magic = {};
     magic.possibleAnswers = ["Yes", "No", "Maybe so", "Of course", "It is certain", "Absolutely", "Never", "Never ever", "Ask again later", "In your dreams", "How dare you even ask"];
 
     $(".answer").hide();
 
-    magic.askQuestion = function(question) {
+    magic.askQuestion = function(question){
         $(".8ballgif").effect("shake");
-        $(".8ballgif").attr("src", "images/magic8ball.png")
+        $(".8ballgif").attr("src", "images/magic8ball.png");
         $(".answer").fadeIn(4000);
 
         var randomNum = Math.random();
@@ -20,5 +20,15 @@ $(document).ready(function() {
         console.log(magicAnswer);
     };
 
+    var onClick = function(){
+        $(".answer").hide();
+        $(".8ballgif").attr("src", "images/magic8ball.gif");
 
+        setTimeout(function(){
+            var question = prompt("What would you like to ask the Magic 8 Ball?");
+            magic.askQuestion(question);
+        },500);    
+    };
+
+    $("button").click(onClick);
 });

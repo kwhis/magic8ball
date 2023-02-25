@@ -53,9 +53,10 @@ button:hover .shake{
     left:50%;
     margin-top:-50px;
     margin-left:-50px;
+    margin-right: -50px;
     text-transform: uppercase;
     text-align: center;
-    font-size: 9px;
+    font-size: 8px;
 }
 
 #magic8ball {
@@ -63,4 +64,5 @@ button:hover .shake{
     position: relative;
     text-align: center;
     color: white;
+    width: 100%;
 }

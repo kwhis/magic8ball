@@ -46,6 +46,10 @@ button:hover .shake{
     color: red;
 }
 
+button:hover {
+    background-color: rgb(80, 80, 80);
+}
+
 .answer {
     position: absolute;
     width:8%;

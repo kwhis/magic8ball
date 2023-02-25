@@ -9,6 +9,11 @@ header {
     border: 3px solid black;
 }
 
+h1,
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -18,6 +23,7 @@ img {
 }
 
 button {
+    text-align: center;
     font-size: 25px;
     font-style: italic;
     padding: 10px 30px;

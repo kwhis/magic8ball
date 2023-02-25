@@ -7,6 +7,7 @@ body {
 header {
     font-size: 30px;
     border: 3px solid black;
+    border-radius: 4px;
 }
 
 h1,
@@ -23,8 +24,24 @@ img {
 }
 
 button {
+    width: 10em;
     text-align: center;
     font-size: 25px;
     font-style: italic;
     padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+button:hover .initial-prompt {
+    display: none;
+}
+
+button .shake {
+    display: none;
+}
+
+button:hover .shake{
+    display: inline;
+    color: red;
 }

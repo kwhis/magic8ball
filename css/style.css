@@ -45,3 +45,22 @@ button:hover .shake{
     display: inline;
     color: red;
 }
+
+.answer {
+    position: absolute;
+    width:8%;
+    top:65%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 9px;
+}
+
+#magic8ball {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    color: white;
+}

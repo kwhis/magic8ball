@@ -4,8 +4,21 @@ $(document).ready(function() {
 
     $(".answer").hide();
 
-    magic.askQuestion = function(question){
-        $("img").effect("shake");
-    }
+    magic.askQuestion = function(question) {
+        $(".8ballgif").effect("shake");
+        $(".8ballgif").attr("src", "images/magic8ball.png")
+        $(".answer").fadeIn(4000);
+
+        var randomNum = Math.random();
+        var randomNumForAnswers = randomNum * this.possibleAnswers.length;
+        var randomIndex = Math.floor(randomNumForAnswers);
+        var magicAnswer = this.possibleAnswers[randomIndex];
+
+        $(".answer").text(magicAnswer);
+
+        console.log(question);
+        console.log(magicAnswer);
+    };
+
 
 });

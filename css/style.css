@@ -1,72 +1,71 @@
-
 body {
-    background-color: #fdfce9;
-    text-align: center;
+  background-color: #fdfce9;
+  text-align: center;
 }
 
 header {
-    font-size: 30px;
-    border: 3px solid black;
-    border-radius: 4px;
+  font-size: 30px;
+  border: 3px solid black;
+  border-radius: 4px;
 }
 
 h1,
 button {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
 }
 
 button {
-    width: 10em;
-    text-align: center;
-    font-size: 25px;
-    font-style: italic;
-    padding: 10px 30px;
-    border: 2px solid black;
-    border-radius: 12px;
+  width: 10em;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  padding: 10px 30px;
+  border: 2px solid black;
+  border-radius: 12px;
 }
 
 button:hover .initial-prompt {
-    display: none;
+  display: none;
 }
 
 button .shake {
-    display: none;
+  display: none;
 }
 
-button:hover .shake{
-    display: inline;
-    color: red;
+button:hover .shake {
+  display: inline;
+  color: red;
 }
 
 button:hover {
-    background-color: rgb(80, 80, 80);
+  background-color: rgb(80, 80, 80);
 }
 
 .answer {
-    position: absolute;
-    width:8%;
-    top:65%;
-    left:50%;
-    margin-top:-50px;
-    margin-left:-50px;
-    margin-right: -50px;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 8px;
+  position: absolute;
+  width: 8%;
+  top: 65%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  margin-right: -50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 8px;
 }
 
 #magic8ball {
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
-    color: white;
-    width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
 }
